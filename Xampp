@@ -1,8 +1,8 @@
 https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.0.6/xampp-linux-7.0.6-0-installer.run/download
 
 nano  /opt/lampp/lampp
+Commenter ou décommenter comme ceci sur CentOS 6.9 :  
 
-Commenter ou décommenter comme ceci:
 #if test $(osguess) = "rh9"
 #then
 	# for now disable PNTL. if PNTL gets more popular we will support it. - oswald [8apr3]
