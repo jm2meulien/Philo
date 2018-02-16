@@ -1,5 +1,7 @@
 https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.0.6/xampp-linux-7.0.6-0-installer.run/download
 
+https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/5.5.35/xampp-linux-5.5.35-0-installer.run/download 
+
 nano  /opt/lampp/lampp
 Commenter ou décommenter comme ceci sur CentOS 6.9 :  
 
