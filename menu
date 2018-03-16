@@ -1,0 +1,32 @@
+#!/bin/bash
+
+function menu
+{
+echo
+echo "Menu Systeme"
+echo
+echo "1) Systeme d exploitation"
+echo
+echo "2) Taux d'occupation des partitions"
+echo
+echo "3) N° IP"
+echo 
+echo "4) Date et heure"
+echo
+echo "5) Quitter"
+echo 
+echo "Entrer un Chiffre entre 1 et 5"
+read a
+clear;
+case $a in
+1) echo $OSTYPE; uname -a ;;
+2) echo ;df -k;;
+3) ip add | fgrep global;;
+4) excho;cal; date;;
+5) exit;;
+*) echo "Vérifier Num Lock ?";;
+esac
+menu
+}
+
+menu
